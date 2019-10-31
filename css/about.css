@@ -1,0 +1,24 @@
+/* about section */ 
+.about{ 
+    overflow: hidden;
+    background: var(--orange);
+    text-align: center;
+}
+
+.about-title {
+    font-size: 2rem;
+    color: var(--white);
+}
+.about .sec-line { background: var(--white); margin: 20px auto; width: 7%;}
+.about-desc { 
+    width: 60%;
+    margin: auto;
+    color: var(--main);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.about .btn { 
+    background: var(--white);
+    color: var(--dark);
+    margin-top: 20px;
+}

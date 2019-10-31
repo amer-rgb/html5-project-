@@ -1,0 +1,8 @@
+/* Download section */ 
+.download { 
+    overflow: hidden; 
+    background-color: #343a40!important; 
+    text-align: center;
+} 
+.download .sec-header{ margin: 0 0 40px 0; color:var(--white); }
+.download .btn { background: var(--white); color: var(--dark);}

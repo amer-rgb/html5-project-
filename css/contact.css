@@ -1,0 +1,17 @@
+/* contact section */
+.contact { overflow: hidden; } 
+.in-touch {width: 60%; margin:0 auto 50px;text-align: center; }
+.contact .sec-line { margin: 20px auto; }
+.contact-desc { font-size: 1.2rem; color: var(--gray);}
+.contact-method { 
+    width: 80%;
+    margin: auto; 
+    color: var(--gray-dark);
+}
+.conmothed-item { 
+    width: 50%; 
+    float: left; 
+    text-align: center;
+}
+.contact-icon { color: var(--gray);}
+ 

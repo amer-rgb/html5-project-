@@ -1,0 +1,85 @@
+/* 3-sections style */
+/* header section */
+header {
+    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../image/headerbg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* nav */ 
+.nav-bar { 
+    overflow: hidden;
+    padding: 10px;
+    position: fixed;
+    width:100% ;
+    z-index: 3;
+}
+.logo { 
+    float: left; 
+    width: 40%;
+    color: rgba(255,255,255,.7); 
+    margin-top: 10px;
+}
+.links { 
+    list-style: none; 
+    width: 60%;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+} 
+.links li { 
+    display: inline-block;
+    vertical-align: middle;
+    transition: color .5s ease-in-out;
+    position: relative;
+    margin-left: 20px;
+    
+}
+.links li a { 
+    text-decoration: none;  
+    text-transform: capitalize; 
+    color: rgba(255,255,255,.7);
+    font-family: var();
+    font-size: 1.1em;
+    letter-spacing: 1px; 
+}
+.links li::after{
+    content: "";
+    width: 0;
+    height: .09rem;
+    background: var(--orange);
+    position: absolute;
+    top: 22px;
+    left: 0;
+    transition: width .5s ease-in-out ;
+} 
+.links li:hover::after, .links li.active::after{
+    width: 100%;
+}
+
+/* hero image */ 
+.hero-image { 
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    height: 40%;
+}
+
+.header-title { 
+    font-size: 3rem;
+    color: var(--white);
+    font-weight:600 ;
+}
+
+.hesder-desc { 
+    color: var(--main);
+    font-size: 1.15rem;
+    width: 70%;
+    margin: 20px auto;
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
